@@ -57,7 +57,7 @@ export default function ServicesSection() {
         {SERVICES.map((service, i) => (
           <div
             key={i}
-            onClick={() => router.push(`/service/${service.slug}`)}
+            onClick={() => router.push(`/service/`)}
             className="
               group cursor-pointer
               bg-white
